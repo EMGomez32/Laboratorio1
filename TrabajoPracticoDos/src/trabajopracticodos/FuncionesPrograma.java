@@ -13,7 +13,7 @@ import java.util.Date;
  * @author Emi
  */
 public class FuncionesPrograma {
-
+// EJERCICIO 17
   public static String getFechaString(Date fecha){
 SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yy");
      String getFechaString = sdf.format(fecha);
@@ -21,8 +21,9 @@ SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yy");
      
      
      return  getFechaString;
-  }  
-  public static Date getFechaDate(int dia, int mes, int anio){
+  } 
+  // EJERCICIO 18
+ public static Date getFechaDate(int dia, int mes, int anio){
     
          
         LocalDate LD = LocalDate.of(anio, mes, dia);
