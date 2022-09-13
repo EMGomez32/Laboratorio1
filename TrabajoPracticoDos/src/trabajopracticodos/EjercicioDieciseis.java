@@ -13,11 +13,13 @@ public class EjercicioDieciseis {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Double Value = 12.34;
-        String valueS= (String)Value;
-        System.out.println(Value);
-        double doubleValue = Double.parseDouble(Value);
-        System.out.println("Converted value: "+doubleValue);
+       
+        Double numero1 = 12.34;
+        double numero2 = numero1;
+        System.out.println(numero2);
+        Double numero3 = 5.5;
+         double numero4 = numero3;
+        System.out.println(numero4);
     }
     
 }
