@@ -14,6 +14,7 @@ public class EjercicioDieciseis {
      */
     public static void main(String[] args) {
         Double Value = 12.34;
+        String valueS= (String)Value;
         System.out.println(Value);
         double doubleValue = Double.parseDouble(Value);
         System.out.println("Converted value: "+doubleValue);
