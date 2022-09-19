@@ -14,7 +14,12 @@ public class TrabajoPracticoTres {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       int objetoCuenta = 50;
+        int prefijoValor = ++objetoCuenta;
+        int sufijoValor = objetoCuenta++; 
+        System.out.println(objetoCuenta);
+        System.out.println(prefijoValor);
+        System.out.println(sufijoValor);
     }
     
 }

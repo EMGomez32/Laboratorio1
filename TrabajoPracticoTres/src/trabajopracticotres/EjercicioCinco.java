@@ -46,7 +46,7 @@ public class EjercicioCinco {
              if (arreglo[i]<prom){
                 menor++;
                 }
-             if(arreglo[i]==0){
+             if(arreglo[i]==prom){
                 igual++;
                 }
         }

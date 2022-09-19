@@ -24,7 +24,7 @@ public class EjercicioCuatro {
         mayorMenor();
         
     }
-public static float []cargaArreglo(){
+    public static float []cargaArreglo(){
         float arreglo[]=new float[20];
        Scanner lt = new Scanner(System.in);
         System.out.println("Ingrese los valores numericos del arreglo: ");
@@ -33,14 +33,14 @@ public static float []cargaArreglo(){
             }
             return arreglo; 
     }  
-public static void  mayorMenor(){
-   float [] arreglo= cargaArreglo(); 
-   float mayor=arreglo[0], menor = arreglo[0];
+    public static void  mayorMenor(){
+        float [] arreglo= cargaArreglo(); 
+        float mayor=arreglo[0], menor = arreglo[0];
    
-   for(int i=1; i <arreglo.length;i++){
-       if(arreglo[i]>mayor){
-           mayor=arreglo[i];
-       }
+        for(int i=1; i <arreglo.length;i++){
+            if(arreglo[i]>mayor){
+                mayor=arreglo[i];
+            }
        if (arreglo[i]<menor){
            menor=arreglo[i];
        }
